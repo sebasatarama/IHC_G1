@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height:4rem;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.links{
+    display:flex;
+}
+.links > div{
+    padding: 2rem;
+}
+.title{
+    background-color: black;
+    color:white;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.main-frame{
+    height:400px;
+}
+
+.content{
+    padding:5rem;
+}
+.main-frame{
+    display:flex;
+    justify-content: space-between;
+    padding: 0rem 3rem 3rem;
+}
+.main-frame-text{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quote{
+    font-weight: bold;
+    font-size:3rem;
+}
+.secondary-quote{
+    
+}
+.start-now{
+    background-color: black;
+    color:white;
+    border:0;
+    width:fit-content;
+    padding:0.75rem 2.5rem;
+}
+.plans{
+    display:flex;
+    justify-content: space-between;
+    padding: 0rem 4rem 3rem;
+    
+}
+.free-plan{
+    padding:2rem;
+    width: 40%;
+    height: 20rem;;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plus-plan{
+    padding:2rem;
+    width: 40%;
+    height: 20rem;;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.professionals{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0rem 3rem 3rem; 
+}
+.section-title{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.frame{
+    background-color: gray;
+    width: 12rem;
+}
+.profile-picture > img{
+    width:10rem;
+}
