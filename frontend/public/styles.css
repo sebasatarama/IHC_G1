@@ -1,102 +1,129 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-    height:4rem;
-    display:flex;
-    justify-content: space-between;
-    padding: 0 2rem;
-}
-.links{
-    display:flex;
-}
-.links > div{
-    padding: 2rem;
-}
-.title{
-    background-color: black;
-    color:white;
-    font-style: italic;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.main-frame{
-    height:400px;
+nav {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 2rem 0;
 }
 
-.content{
-    padding:5rem;
-}
-.main-frame{
-    display:flex;
-    justify-content: space-between;
-    padding: 0rem 3rem 3rem;
-}
-.main-frame-text{
-    width:30%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.quote{
-    font-weight: bold;
-    font-size:3rem;
-}
-.secondary-quote{
-    
-}
-.start-now{
-    background-color: black;
-    color:white;
-    border:0;
-    width:fit-content;
-    padding:0.75rem 2.5rem;
-}
-.plans{
-    display:flex;
-    justify-content: space-between;
-    padding: 0rem 4rem 3rem;
-    
-}
-.free-plan{
-    padding:2rem;
-    width: 40%;
-    height: 20rem;;
-    background-color: black;
-    color:white;
-    font-weight: bold;
+div:has(.title) {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
-.plus-plan{
-    padding:2rem;
-    width: 40%;
-    height: 20rem;;
-    background-color: black;
-    color:white;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+.links {
+  display: flex;
 }
-.professionals{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0rem 3rem 3rem; 
+.links > div {
+  padding: 1rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
 }
-.section-title{
-    font-weight: bold;
-    font-size:1.5rem;
+
+.nav-icons {
+  display: flex;
+  flex-direction: row;
 }
-.frame{
-    background-color: gray;
-    width: 12rem;
+
+.nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1rem;
 }
-.profile-picture > img{
-    width:10rem;
+
+.title {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 1000;
+  height: 2rem;
+  padding: 1rem 5rem 0.75rem 5rem;
+  font-size: 1.5rem;
+}
+
+.main-frame {
+  height: 400px;
+}
+
+.content {
+  padding: 5rem;
+}
+.main-frame {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem 3rem;
+}
+.main-frame-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quote {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.start-now {
+  background-color: black;
+  color: white;
+  border: 0;
+  width: fit-content;
+  padding: 0.75rem 2.5rem;
+}
+.plans {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 4rem 3rem;
+}
+.free-plan {
+  padding: 2rem;
+  width: 40%;
+  height: 20rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.plus-plan {
+  padding: 2rem;
+  width: 40%;
+  height: 20rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.professionals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem 3rem 3rem;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.frame {
+  background-color: gray;
+  width: 12rem;
+}
+.profile-picture > img {
+  width: 10rem;
 }
