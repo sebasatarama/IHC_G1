@@ -14,9 +14,9 @@ nav {
 }
 
 div:has(.title) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .links {
@@ -25,7 +25,7 @@ div:has(.title) {
 .links > div {
   padding: 1rem 2rem;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .nav-icons {
@@ -44,7 +44,7 @@ div:has(.title) {
   background-color: black;
   color: white;
   font-style: italic;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: 1000;
   height: 2rem;
@@ -53,7 +53,7 @@ div:has(.title) {
 }
 
 .main-frame {
-  height: 400px;
+  height: 28rem;
 }
 
 .content {
@@ -62,22 +62,24 @@ div:has(.title) {
 .main-frame {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 7rem 3rem;
+  padding: 0rem 7rem 0rem;
+  margin: 2rem 0;
 }
 .main-frame-text {
-  width: 40%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .quote {
-  font-weight: bold;
+  font-weight: 1000;
   font-size: 3rem;
 }
 .secondary-quote {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
+  margin-top: 2rem;
 }
 
 .start-now {
@@ -85,7 +87,7 @@ div:has(.title) {
   color: white;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
   border: 0;
   width: fit-content;
   padding: 0.75rem 2.5rem;
@@ -93,12 +95,37 @@ div:has(.title) {
 .plans {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 4rem 3rem;
+  padding: 4rem 0rem 4rem 3rem;
+  margin-top: 5rem;
+  height: 45rem;
+}
+
+.plan {
+width: 45%;
+}
+
+.plan-category {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.plan-cta {
+  font-size: 2rem;
+  font-weight: 800;
+  background-color: #d9d9d9;
+  color: black;
+  padding: 2rem;
+  width: fit-content;
+  border-radius: 5rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.plan-cta > img {
+  padding: 0 1rem 0 2rem;
 }
 .free-plan {
   padding: 2rem;
-  width: 40%;
-  height: 20rem;
   background-color: black;
   color: white;
   font-weight: bold;
@@ -108,8 +135,6 @@ div:has(.title) {
 }
 .plus-plan {
   padding: 2rem;
-  width: 40%;
-  height: 20rem;
   background-color: black;
   color: white;
   font-weight: bold;
