@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 nav {
   height: 4rem;
   display: flex;
@@ -272,6 +277,55 @@ hr {
 }
 
 .footer {
-    background-color: black;
-    height: 25rem;
+  background-color: black;
+  height: 35rem;
+}
+.ftr-content {
+  padding: 8rem 3.5rem 0 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-sections {
+  display: flex;
+  flex-direction: row;
+}
+.footer-sections > div {
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.ftr-account > a {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.ftr-about-us > a {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.ftr-program-your-plan > a {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.ftr-title {
+  color: darkgray;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.social-networks {
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.sn-img-container > img {
+  padding: 0.5rem 0.5rem;
+}
+.rights {
+  color: darkgray;
+  padding: 5rem 10rem;
 }
