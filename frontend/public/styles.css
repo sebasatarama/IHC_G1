@@ -201,3 +201,77 @@ hr {
   height: 100rem;
   overflow-x: scroll;
 }
+/* TODO: fix overflow */
+.dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem 0rem 3rem;
+  height: 30rem;
+}
+.dish-component {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  width: 400px;
+  margin: 0.75rem;
+}
+.dish-name {
+  margin-top: 1.25rem;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.top-dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem 0rem 3rem;
+  height: 30rem;
+}
+.dish-photo > img {
+  padding: 1rem;
+  width: 15rem;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem 0rem 3rem;
+  margin-top: 5rem;
+  height: 18rem;
+}
+.subscription > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscription-quote {
+  font-weight: 1000;
+  font-size: 3rem;
+  text-align: center;
+  width: 20rem;
+}
+
+.secondary-subscription-quote {
+  margin: 3rem 0;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.subscription-cta {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1rem 3.5rem;
+  background-color: transparent;
+  border-color: black;
+}
+
+.footer {
+    background-color: black;
+    height: 25rem;
+}
