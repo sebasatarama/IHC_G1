@@ -22,7 +22,9 @@ div:has(.title) {
 .links {
   display: flex;
 }
-.links > div {
+.links > a {
+  text-decoration: none;
+  color: black;
   padding: 1rem 2rem;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   font-weight: 700;
@@ -32,6 +34,13 @@ div:has(.title) {
   display: flex;
   flex-direction: row;
   margin: 0 2rem;
+}
+
+/* TODO: fix: cursor goes beyond text */
+.nav-icons > button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .nav-icon {
