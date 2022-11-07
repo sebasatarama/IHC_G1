@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+    /*TODO: choose better resolutions/ use percentages*/
+  .ellipse1 {
+    position:fixed;
+    left:0;
+    top:0;
+  }
+  .ellipse2{
+    position:fixed;
+    right:0;
+    bottom:0;   
+    height:136px;
+  }
+  .first-view {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10.25rem 1.5rem 14.3rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .first-view-tagline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .first-view-image {
+    height: 15.2rem;
+  }
+  .apple {
+    height: 1.35rem;
+  }
+  .phrase {
+    text-align: center;
+  }
+  .first-view-cta {
+    background-color: #84f0bc;
+    border-color: transparent;
+    font-size:1.25rem;
+    height: 4.125rem;
+    width: 20.125rem;
+  }
+}
